@@ -6,8 +6,8 @@ from pdfminer.pdfinterp import PDFResourceManager
 from pdfminer.pdfpage import PDFPage
 import os
 import shutil
-# Здесь должен быть путь к файлу в формате .txt с вашими ключевыми словами.
-PATH_TO_PATTERNS = "D:\PyCharmProjects\CourseWork_3\patterns.txt"
+
+PATH_TO_PATTERNS = "\path\to\patterns.txt"
 
 
 class Trie:
